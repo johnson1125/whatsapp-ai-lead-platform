@@ -1,0 +1,37 @@
+# .NET / Visual Studio / Rider
+[Bb]in/
+[Oo]bj/
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.DotSettings.user
+[Dd]ebug/
+[Rr]elease/
+[Tt]est[Rr]esults/
+coverage/
+*.coverage
+*.coveragexml
+*.trx
+artifacts/
+packages/
+*.nupkg
+*.snupkg
+# Local configuration and secrets; commit only placeholder examples
+.env
+.env.*
+!.env.example
+appsettings.Local.json
+appsettings.*.Local.json
+secrets.json
+*.pfx
+*.p12
+*.key
+# Local logs and generated output
+logs/
+*.log
+.DS_Store
+Thumbs.db
